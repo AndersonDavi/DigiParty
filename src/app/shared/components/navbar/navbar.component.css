@@ -2,7 +2,7 @@
   display: block;
 }
 .nav-item{
-  @apply grow flex justify-center hover:bg-primary-500/25 h-full items-center cursor-pointer active:bg-primary-200/25 select-none
+  @apply grow flex justify-center hover:bg-primary-500/25 h-full items-center cursor-pointer active:bg-primary-200/25 select-none transition-all duration-200
 }
 .nav-btn{
   @apply hover:bg-transparent cursor-default

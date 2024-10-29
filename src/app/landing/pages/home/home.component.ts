@@ -1,16 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MybtnComponent } from "../../../shared/components/btn/btn.component";
+import { MybtnComponent } from '../../../shared/components/btn/btn.component';
+import { PostListComponent } from '../../components/post-list/post-list.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [
-    CommonModule,
-    MybtnComponent
-],
+  imports: [CommonModule, PostListComponent, MybtnComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomeComponent { }
+export class HomeComponent {}
