@@ -2,41 +2,42 @@
   <ul
     class="bg-secondary-200 h-3/5 w-full flex flex-row items-center justify-around text-white font-medium text-sm grow"
   >
-    <li class="nav-item">
-      <a routerLink="/home" routerLinkActive="text-primary-500">INICIO</a>
+    <li class="nav-item" routerLink="/home" routerLinkActive="active-item">
+      INICIO
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500">WORKSHOP</a>
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      WORKSHOP
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500"
-        >CERTIFICACIONES</a
-      >
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      CERTIFICACIONES
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500">TORNEOS</a>
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      TORNEOS
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500">DIGINEWS</a>
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      DIGINEWS
     </li>
-    <li class="nav-item h-[6rem] relative">
-      <img src="../../../../assets/logo.png" alt="" class="h-full" />
+    <li class="h-[6rem] relative select-none">
+      <img
+        src="../../../../assets/logo.png"
+        alt=""
+        class="h-full hover:scale-95 active:scale-100"
+      />
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500">TIENDA</a>
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      TIENDA
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500"
-        >CONÓCENOS</a
-      >
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      CONÓCENOS
     </li>
-    <li class="nav-item">
-      <a routerLink="/user/bob" routerLinkActive="text-primary-500">CONTACTO</a>
+
+    <li class="nav-item" routerLink="/home2" routerLinkActive="active-item">
+      CONTACTO
     </li>
-    <li class="nav-item px-3">
-      <app-mybtn text="INGRESAR" class="w-full" [outline]="true"/>
+    <li class="nav-item nav-btn px-3">
+      <app-mybtn text="INGRESAR" class="w-full" [outline]="true" />
     </li>
-    <li class="nav-item px-3">
+    <li class="nav-item nav-btn px-3">
       <app-mybtn text="REGISTRO" class="w-full" />
     </li>
   </ul>

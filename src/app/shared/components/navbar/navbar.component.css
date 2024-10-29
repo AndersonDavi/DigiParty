@@ -2,5 +2,11 @@
   display: block;
 }
 .nav-item{
-  @apply grow flex justify-center
+  @apply grow flex justify-center hover:bg-primary-500/25 h-full items-center cursor-pointer active:bg-primary-200/25 select-none
+}
+.nav-btn{
+  @apply hover:bg-transparent cursor-default
+} 
+.active-item{
+  @apply text-primary-500 bg-primary-200/15 h-full items-center
 }
