@@ -1,0 +1,6 @@
+:host {
+  display: block;
+}
+.nav-item{
+  @apply grow flex justify-center
+}
