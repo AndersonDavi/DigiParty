@@ -1,0 +1,29 @@
+:host {
+  display: block;
+}
+.footer-list {
+  @apply text-white flex flex-col justify-start gap-3 text-xs p-5;
+}
+.footer-list li:not(.list-title) {
+  @apply opacity-50 hover:opacity-100 select-none duration-200 cursor-pointer;
+}
+.list-title {
+  @apply text-sm font-semibold uppercase opacity-100;
+}
+
+.social-media {
+  @apply h-9 w-auto flex text-white;
+}
+.social-media div {
+  @apply h-full md:flex flex-col justify-center hidden;
+}
+.social-media div span {
+  @apply opacity-50 text-xs;
+}
+.social-media div p {
+  @apply text-sm font-semibold;
+}
+
+.social-media img {
+  @apply h-full w-10 object-contain p-1 mx-2;
+}

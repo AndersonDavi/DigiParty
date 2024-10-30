@@ -15,13 +15,13 @@ export class PostListComponent {
     {
       id: 1,
       title: 'TWITCH LIVE',
-      icon: 'icon-twitch.svg',
+      icon: 'twitch.svg',
       img: 'banner2.png',
     },
     {
       id: 2,
       title: 'DIGIPARTYLEAGUE',
-      icon: 'icon-instagram.svg',
+      icon: 'instagram.svg',
       img: 'banner3.png',
     },
   ];
